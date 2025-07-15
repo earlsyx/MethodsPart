@@ -8,9 +8,11 @@ namespace Methods
 {
     public static class MathShortcut
     {//in math, x is a variable. dont necessarily have to be descriptive
-        public static void Add(double x, double y)
+        public static double Add(double x, double y)
         {
-            Console.WriteLine($"The value of {x} + {y} = {x+y}");
+            //Console.WriteLine($"The value of {x} + {y} = {x+y}");
+            double output = x + y;
+            return output;
         }
 
         //defining at the method call, not at the method itself

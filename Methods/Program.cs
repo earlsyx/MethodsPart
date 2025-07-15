@@ -29,8 +29,8 @@ using Methods;
 //    SampleMethods.SayHi();
 //}
 
-Console.Write("What is your name: ");
-string name = Console.ReadLine();
+//gettning the value by return a value from a method.
+string name = ConsoleMessages.GetUsersName();
 ConsoleMessages.SayHi(name); //default, variable name passing.
 
 Console.WriteLine("This is Tim");
@@ -71,7 +71,12 @@ ConsoleMessages.SayGoodBye();
 
 // method paramters.
 
-MathShortcut.Add(5,3);
+double result = MathShortcut.Add(5,3);
+Console.WriteLine(result);
 
 double[] vals = new double[] { 2, 5, 6, 21, 52, 89 };
 MathShortcut.AddAll(vals);
+
+//returning values from a method
+
+string lastName = Console.ReadLine(); // capturing a string.

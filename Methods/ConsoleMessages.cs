@@ -29,6 +29,13 @@ namespace Methods
             Console.WriteLine($"Hello {firstName}!");
         }
 
+        //not passing a parameter, but getting back a value string
+        public static string GetUsersName()
+        {
+            Console.Write("What is your name: ");
+            string name = Console.ReadLine();
+            return name;
+        }
         public static void SayGoodBye()
         {
             Console.WriteLine("Goodbye, user.");
