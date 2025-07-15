@@ -28,10 +28,13 @@ using Methods;
 //{
 //    SampleMethods.SayHi();
 //}
-ConsoleMessages.SayHi();
+
+Console.Write("What is your name: ");
+string name = Console.ReadLine();
+ConsoleMessages.SayHi(name); //default, variable name passing.
 
 Console.WriteLine("This is Tim");
-ConsoleMessages.SayHi();
+ConsoleMessages.SayHi(name);
 //code repitition.
 
 //naming is critical, name things for what they do.
@@ -63,3 +66,12 @@ ConsoleMessages.SayGoodBye();
 // allows you to encapsulate information into a bite size chunk,
 // make your application redable. c# is meant to be read by human
 // easier to debug, 1 spot, simpler, cleaner. 
+
+//how tocall method, does not reurn value, does not send value.
+
+// method paramters.
+
+MathShortcut.Add(5,3);
+
+double[] vals = new double[] { 2, 5, 6, 21, 52, 89 };
+MathShortcut.AddAll(vals);

@@ -23,9 +23,10 @@ namespace Methods
        //Pascal method, name of method
        //(), here dat you want to pass in.
        // {} scope
-       public static void SayHi() //method signature
+       public static void SayHi(string firstName) //method signature
         {
-            Console.WriteLine("Hello User");
+            //called parameter because we are sending it through the method
+            Console.WriteLine($"Hello {firstName}!");
         }
 
         public static void SayGoodBye()
