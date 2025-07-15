@@ -27,5 +27,12 @@ namespace Methods
         {
             Console.WriteLine("Hello User");
         }
+
+        public static void SayGoodBye()
+        {
+            Console.WriteLine("Goodbye, user.");
+            Console.WriteLine("Thank you for visiting.");
+            Console.WriteLine("I cannot wait to see you again.");
+        }
     }
 }

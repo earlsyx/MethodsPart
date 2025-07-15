@@ -37,4 +37,29 @@ ConsoleMessages.SayHi();
 //naming is critical, name things for what they do.
 // not describe what method it has.
 //tells method job
- 
+
+//DRY Don't repeat yourself, important principle
+// focus on the logic of things.
+
+// another prinicple SOLID.
+// SRP - single responsibility principle
+// something should do one thing. one reason to change.
+// core method. program.cs , static void main method.
+// the idea of each thing has one thing it does.
+
+//repeating logic, not repating 1 line lol
+//fixing code requires to change all the same logic.
+// 3 lines, 3lines fix.
+
+// instead of fixing in all parts where code is ,
+// only have to fi in one stop.
+// allows to fix code once, and fixt it everywhere.
+// allows to not repeat our code
+
+ConsoleMessages.SayGoodBye();
+
+//making code better. writing in 1 method.
+// chungking it in 1 bite. 
+// allows you to encapsulate information into a bite size chunk,
+// make your application redable. c# is meant to be read by human
+// easier to debug, 1 spot, simpler, cleaner. 
