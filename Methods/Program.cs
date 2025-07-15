@@ -13,7 +13,28 @@
 
 //best practices, DRY - Don't repeat yourself.
 
-Console.WriteLine();
+//using statement, shortcut,
+//text shrotcut.
+//ambigious name, ambiguous call. cause problem
+using Methods;
+
 // use over and over again
 // call method all code in the method is excuted in one line.
 
+//SampleMethods.SayHi();
+
+//if can reduce dont lol
+//for (int i = 0; i < 10; i++)
+//{
+//    SampleMethods.SayHi();
+//}
+ConsoleMessages.SayHi();
+
+Console.WriteLine("This is Tim");
+ConsoleMessages.SayHi();
+//code repitition.
+
+//naming is critical, name things for what they do.
+// not describe what method it has.
+//tells method job
+ 

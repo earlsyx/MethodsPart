@@ -15,7 +15,7 @@ namespace Methods
  //private- anyone inside of this scope can use it but no body else.
  // can sound for security but not.
  // purpose, not allow people to call thing they shoud not really call directly.
-    public static class SampleMethods
+    public static class ConsoleMessages
     {
        //create a method
        // void is return value, void nothing, return nothing
